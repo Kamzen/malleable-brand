@@ -1,0 +1,15 @@
+
+.input{
+
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid lightblue;
+    margin-bottom: 10px;
+
+}
+.input::placeholder{
+
+    margin-left: 20px;
+
+}

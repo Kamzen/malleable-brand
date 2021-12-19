@@ -1,0 +1,29 @@
+.side-navigation{
+
+    background: #45454D 0% 0% no-repeat padding-box;
+    border-radius: 0px 44px 44px 0px;
+    opacity: 1;
+    height: 100%;
+
+}
+.nav-links{
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 87.5%;
+    margin: auto;
+
+}
+.nav-links li{
+
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 7px 0 0 7px;
+
+}
