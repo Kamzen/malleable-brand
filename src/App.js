@@ -27,10 +27,12 @@ class App extends Component{
       
       
       <BrowserRouter>
+
+
       
         <Switch>
           
-          <Route exact path={'/casa'}>
+          <Route exact path={'/casa/:username'}>
             <Explore link="home" />
           </Route>
           <Route exact path={'/organizations'} component={ListOrg} />

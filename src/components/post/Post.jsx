@@ -12,13 +12,12 @@ const Post = () => {
 
             <div className="post-card">
 
-                <div className="photo-cover bd" style={{height: "250px"}}>
+                <div className="post-img bd">
                     <img src={image} alt="" style={{width:"100%"}} />
                 </div>
                 <div className="picture-cover">
                     <img src={image} alt="" height="50px" width="50px" className="org-image" style={{borderRadius : "50%"}}/>
                 </div>
-                <br />
                 <br />
                 <span className="app-bolder-text">Heading...</span>
                 <span className="app-grey-text-sm">09 Septempter 2021</span>

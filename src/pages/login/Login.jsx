@@ -16,7 +16,8 @@ export default class Login extends Component {
         this.state = {
 
             isLoggedIn : false,
-            userInfo : []
+            userInfo : [],
+            onError : ""
 
         }
 
@@ -31,12 +32,19 @@ export default class Login extends Component {
             "password" : e.target.elements.password.value
         },(data) => {
 
+            console.log(data);
+
             this.setState({
-
                 isLoggedIn : data.isLoggedIn,
-                userInfo : data.user
-
+                userInfo : data.user,
+                onError : data.msg
             });
+
+            if (data.isLoggedIn) {
+                
+                this.props.history.push('/casa/' + this.state.userInfo.username );
+
+            }
 
         });
     }
@@ -46,8 +54,6 @@ export default class Login extends Component {
     }
 
     render(){
-
-        console.log(this.props);
 
         return(
 

@@ -7,11 +7,10 @@ const Fetch = (url,method,data,callback) => {
         fetch(url,
         {
             method : method,
-            body : 
-            JSON.stringify(data),
+            body : JSON.stringify(data),
 
             headers : {
-                Accept: 'application/form-data',
+                'Accept': 'application/form-data',
                 'Content-Type': 'application/json',
             }
 

@@ -7,7 +7,9 @@ import TopNavigation from '../../components/top-navigation/TopNavigation';
 import Post from '../../components/post/Post';
 
 import './Explore.css';
-import SideNavigation from "../../components/side-navigation/SideNavigation";
+// import SideNavigation from "../../components/side-navigation/SideNavigation";
+// import CasaPostModal from '../../components/casa-post-modal/CasaPostModal';
+// import OrgProfile from '../../components/org-profile/OrgProfile';
 
 
 
@@ -32,14 +34,17 @@ const Explore = (props) => {
                     <div className="col-lg-3">
                         <div className="side-nav bd ">
 
-                            <SideNavigation />
+                            {/* <SideNavigation /> */}
 
                         </div>
                     </div>
                     {/* Middle Div For Posts */}
-                    <div className="col-lg-9 move-middle-column bd bg">
+                    <div className="col-lg-6 move-middle-column bd bg">
+                        {/* herfivugwervgfoq erwkg */}
 
-                        <Post />
+                        <Post /><Post /><Post /><Post /><Post /><Post />
+                        {/* <CasaPostModal /> */}
+                        {/* <OrgProfile /> */}
     
                     {
                     //  (props.link === "home")?<Post /> : 
@@ -52,10 +57,10 @@ const Explore = (props) => {
     
                     </div>
     
-                    {/* Right Div For Quick Access Things
-                    <div className="col-lg-3">
-                        <div className="right-nav bd bg"></div>
-                    </div> */}
+                    {/* Right Div For Quick Access Things */}
+                    <div className="col-lg-3-right">
+                        <div className="right-nav bd"></div>
+                    </div>
                 </div>
             </div>
         )

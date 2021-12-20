@@ -1,0 +1,44 @@
+.casa-post-modal{
+
+    position: fixed;
+    left: 30%;
+    right: 10%;
+    top: 20%;
+    bottom: 20%;
+    width: 60%;
+    height: 60%;
+    z-index: 1081;
+    overflow: auto;
+    overflow-x: hidden;
+    white-space: pre;
+
+}
+.post-modal-close{
+
+    height: 30px;
+    width: 100%;
+    text-align: end;
+    padding-right: 2px;
+
+}
+
+.post-form{
+    padding: 10px;
+}
+.post-form select{
+
+    width: 100%;
+    height: 35px;
+
+}
+.post-form input{
+
+    width: 99%;
+    height: 30px;
+
+}
+.post-form textarea{
+
+    width: 100%;
+
+}

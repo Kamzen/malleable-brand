@@ -30,24 +30,24 @@ const OrgProfile = () => {
                     
                 <div className="row">
 
-                    <div className="col-md-6 bd h left-links">
+                    <div className="col-md-6  left-links">
 
                         <div className="row">
-                            <div className="col-md-2-5 tx bd h"><span>Posts</span></div>
-                            <div className="col-md-2-5 tx bd h"><span>About</span></div>
-                            <div className="col-md-2-5 tx bd h"><span>Events</span></div>
-                            <div className="col-md-2-5 tx bd h"><span>Surveys</span></div>
-                            <div className="col-md-2-5 tx bd h"><span>Campaigns</span></div>
+                            <div className="col-md-20 tx bd "><span>Posts</span></div>
+                            <div className="col-md-20 tx bd "><span>About</span></div>
+                            <div className="col-md-20 tx bd "><span>Events</span></div>
+                            <div className="col-md-20 tx bd "><span>Surveys</span></div>
+                            <div className="col-md-20 tx bd "><span>Campaigns</span></div>
                         </div>
 
                     </div>
-                    <div className="col-md-6 bd h right-links">
+                    <div className="col-md-6  right-links">
 
                         <div className="row left-link">
-                            <div className="col-lg-3 tx bd h"><span>Volunteer</span></div>
-                            <div className="col-lg-3 tx bd h"><span>Donate</span></div>
-                            <div className="col-lg-3 tx bd h"><span>Sign Pertitions</span></div>
-                            <div className="col-lg-3 tx bd h"><span>Submit A Case</span></div>
+                            <div className="col-md-3 tx bd "><span>Volunteer</span></div>
+                            <div className="col-md-3 tx bd "><span>Donate</span></div>
+                            <div className="col-md-3 tx bd "><span>Sign Pertitions</span></div>
+                            <div className="col-md-3 tx bd "><span>Submit A Case</span></div>
                         </div>
 
                     </div>
